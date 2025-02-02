@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+        comingSoon: "var(--font-comingSoon)"
       },
     },
   },
