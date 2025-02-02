@@ -1,4 +1,4 @@
-import { FiUser, FiMapPin, FiClock } from "react-icons/fi";
+import { FiClock } from "react-icons/fi";
 import React from 'react'
 
 export const NoteCard = () => {
