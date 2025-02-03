@@ -6,8 +6,8 @@ import { useState, useEffect } from "react";
 
 export default function Hello() {
 
-    const [timeOfDay, setTimeOfDay] = useState<String | null>(null);
-    const [today, setToday] = useState<String | null>("");
+    const [timeOfDay, setTimeOfDay] = useState<string | null>(null);
+    const [today, setToday] = useState<string | null>("");
 
 
     useEffect(() => {
