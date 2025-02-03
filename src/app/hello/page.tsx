@@ -50,11 +50,15 @@ export default function Hello() {
             <h1 className="text-xl font-semibold text-indigo-800 mt-4">Today</h1>
             <div className="">
                 {timeOfDay && (
-                    <div className="border-l-0 border-dashed border-indigo-200 sticky mt-2 z-20">
+                    <div className="border-l-0 border-dashed border-indigo-200 sticky mt-2 z-20" dir="ltr">
                         <h1 className="text-base font-medium text-indigo-700">{timeOfDay} Tasks</h1>
-                        <div className="grid grid-cols-4 gap-4 py-4">
+                        <div className="flex gap-4 py-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide">
                             <NoteCard />
                             <NoteCard />
+                            <NoteCard />
+                            <NoteCard />
+                            <NoteCard />
+
                             <NoteCard />
                             <NoteCard />
                         </div>
@@ -64,7 +68,7 @@ export default function Hello() {
             </div>
             <div className="">
                 <h1 className="text-xl font-semibold text-indigo-800 mt-8">Upcoming Tasks</h1>
-                <div className="h-full w-full  rounded-xl grid grid-cols-4 gap-4 py-4" >
+                <div className="h-full w-full  rounded-xl flex gap-4 py-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide" >
                     <NoteCard />
                     <NoteCard />
                     <NoteCard />
