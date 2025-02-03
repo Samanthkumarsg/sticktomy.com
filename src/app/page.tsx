@@ -33,7 +33,7 @@ export default function Home() {
 
 
       <div className="py-12  flex items-start justify-center flex-col ">
-        <div className="flex flex-row items-center text-base font-semibold z-10 rotate-12 -mb-6 px-4 py-2 shadow bg-indigo-50 text-indigo-900  cursor-pointer  transition-all duration-200   w-fit rounded-md tracking-widest ">
+        <div className="flex flex-row items-center text-sm font-semibold z-10 rotate-12 -mb-6 px-4 py-2 shadow bg-indigo-50 text-indigo-900  cursor-pointer  transition-all duration-200   w-fit rounded-md tracking-widest ">
           STICK TO MY.COM
         </div>
 
