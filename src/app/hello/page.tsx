@@ -47,10 +47,10 @@ export default function Hello() {
 
             </div>
 
-            <h1 className="text-xl font-semibold text-indigo-800 my-4">Today</h1>
+            <h1 className="text-xl font-semibold text-indigo-800 mt-4">Today</h1>
             <div className="">
                 {timeOfDay && (
-                    <div className="border-l-0 border-dashed border-indigo-200 sticky mt-4 z-20">
+                    <div className="border-l-0 border-dashed border-indigo-200 sticky mt-2 z-20">
                         <h1 className="text-base font-medium text-indigo-700">{timeOfDay} Tasks</h1>
                         <div className="grid grid-cols-4 gap-4 py-4">
                             <NoteCard />
